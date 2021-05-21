@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Work+Sans:wght@600&display=swap');
+body {
+	overflow-x: hidden;
+    padding: 0%;
+    background-attachment: fixed;
+    margin: 0;
+}
+ul, li{
+    display: block;
+    padding: 0;
+    margin: 0;
+}
+.feader{
+    font-family: 'Indie Flower', cursive;
+    font-family: 'Work Sans', sans-serif;
+    background:linear-gradient(to top, #ffffcc, #fff);
+    padding: 10px 0;
+    height: 70px;
+}
+.logo{
+    float: right;
+}
+.menu_item{
+    margin-left: 20px;
+}
+.menu_item A {
+    font-family:'Open Sasn Smibold';
+    font-size: 20px;
+}
+.menu_item A {
+    text-decoration: none;
+    color: #788ed8;
+}
+.menu_item A:hover {
+    color: #0a2b97; 
+}
+.header > div{
+    font-family: 'Indie Flower', cursive;
+    font-family: 'Work Sans', sans-serif;
+    width: 100%;
+    height: auto;
+    background-image: url("images/baner.jpg");
+    background-size: cover;
+    padding: 242px 0;
+    text-align: center;
+}
+.text {
+    color: #ffff;
+    box-sizing: border-box;
+    float: right;
+    width: 40%;
+    background: rgba(85, 85, 85, 0.438);
+    border: 2px solid #F0E68C;
+    padding: 2%;
+    border-top-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+}
+.heading{
+    font-size: 3vw;
+}
+.title{
+    font-size: 1vw;
+}
+.title2{
+    font-size: 0.8vw;
+}
+.about{
+    position: absolute;
+    width: 100%;
+    height: 260px; 
+    background:linear-gradient(to top, #ffffff, #ffe4b5);
+}
+.margin{
+    text-align: center;
+    position: absolute;
+    box-sizing: border-box;
+    padding: 2%;
+    margin-top: -2%;
+    width: 16%;
+    max-width: 120%;
+    min-height: 175px;
+    background:linear-gradient(to top, #deb887bd, #FFFFF0);
+    border: 2px solid #8b4513;
+    border-radius: 13%;
+}
+.button{
+    float: center;
+    text-align: center;
+    position: absolute;
+    margin-top: -3%;
+    margin-left: -14%;
+    padding: 0% 4%;
+    background: #fff9c5;
+    border: 2px solid whote;
+    transition: 0.3s;
+}
+.content > div{
+    font-family: 'Indie Flower', cursive;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 20px;
+    width: 100%;
+    height: 850px;
+    background-image: url("images/content_2.jpg");
+    background-size: cover;
+    padding: 10% 0%;
+    text-align: center;
+}
+.circle{
+    color: #ffff;
+    box-sizing: border-box;
+    border: 2px solid #F0E68C;
+    float: right;
+    margin-top: 23%;
+    width: 14%;
+    height: 52%;
+    background:  rgba(85, 85, 85, 0.63);
+    -moz-border-radius: 100%;
+    -webkit-border-radius: 100%;
+    border-radius: 100%;
+
+}
+.tape{
+    background:linear-gradient(to top, #ffffcc, #FF6347);
+    font-size: 20px;
+}
